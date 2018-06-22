@@ -1,0 +1,23 @@
+If Nø709 or Oø709 or Pø709
+Return
+ClrHome
+Lbl CS
+If áCACC(1)=1
+"GeneralüStr1
+If áCACC(1)=2
+"GuildüStr1
+If áCACC(1)=3
+"PartyüStr1
+Input Str1+": ",Str2
+If Str2="/C
+1üáCACC(1)
+If Str2="/G
+2üáCACC(1)
+If Str2="/P
+3üáCACC(1)
+If Str2="/BACK
+Then
+ClrHome
+Return
+End
+Goto CS

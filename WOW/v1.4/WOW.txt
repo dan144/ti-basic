@@ -1,0 +1,1003 @@
+AxesOff
+Goto MM
+Lbl 9E
+If áCACC(2)=2 and áCACC(3)=1
+[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]ü[A]
+If áCACC(2)=1 and áCACC(3)=2
+[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0][0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]ü[A]
+If áCACC(2)=2 and áCACC(3)=2
+[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]ü[A]
+If áCACC(2)=3 and áCACC(3)=1
+[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]ü[A]
+If áCACC(2)=4 and áCACC(3)=1
+[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]ü[A]
+If áCACC(2)=3 and áCACC(3)=2
+[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]ü[A]
+If áCACC(2)=4 and áCACC(3)=2
+[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]ü[A]
+If áCACC(2)=4 and áCACC(3)=3
+[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,0][0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,4,4,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,4,4,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]ü[A]
+If áCACC(2)=3 and áCACC(3)=3
+[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,4,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]ü[A]
+If áCACC(2)=2 and áCACC(3)=3
+[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0][0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]ü[A]
+If áCACC(2)=1 and áCACC(3)=3
+[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,4,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0][0,4,0,0,0,4,0,0,0,0,4,0,0,0,0,0,0,0][0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]ü[A]
+If áCACC(2)=4 and áCACC(3)=4
+[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]ü[A]
+If áCACC(2)=3 and áCACC(3)=4
+[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]ü[A]
+If áCACC(2)=2 and áCACC(3)=4
+[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]ü[A]
+If áCACC(2)=1 and áCACC(3)=4
+[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0][0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]ü[A]
+Goto DS
+ClrHome
+Lbl 9F
+ClrHome
+DelVar áMNSTR
+Goto TM
+Lbl MF
+0ü[A](I,J)
+randIntáMNSTR(1),áMNSTR(2)üáMNSTR(3)
+Lbl 9H
+Menu("Enemy: "+Str1,"Attack",AT,"Run",RU,"Health",HE
+Lbl HE
+ClrHome
+Output(4,3,"You&nbsp;&nbsp;&nbsp;Monster
+Output(5,3,áCACC(10)
+Output(5,11,áMNSTR(3)
+Pause 
+ClrHome
+Goto 9H
+Lbl RU
+randInt1,10üB
+If B>8
+Then
+2üV
+Goto FD
+End
+Goto 9H
+Lbl AT
+randInt0,áMNSTR(4)üE
+randInt0,10üY
+áCACC(10)-EüáCACC(10)
+áMNSTR(3)-YüáMNSTR(3)
+Output(1,1,Y
+Output(1,16-(Eù10)-(Eù100)-(Eù1000),E
+Pause 
+ClrHome
+If áMNSTR(3)÷0
+Then
+1üV
+DelVar áMNSTR
+Goto FD
+End
+If áCACC(10)÷0
+Then
+0üV
+DelVar áMNSTR
+Goto FD
+End
+Goto 9H
+Lbl TM
+If [A](I,J)=6
+Then
+"MonsterüStr1
+{10,30,0,5üáMNSTR
+End
+If Á=31
+Goto MI
+Goto MF
+Lbl MI
+Disp "Info: "+Str1,"","Min health:","Max health:","Max hit:
+Output(3,16-(áMNSTR(1)ù10)-(áMNSTR(1)ù100)-(áMNSTR(1)ù1000),áMNSTR(1)
+Output(4,16-(áMNSTR(2)ù10)-(áMNSTR(2)ù100)-(áMNSTR(2)ù1000),áMNSTR(2)
+Output(5,16-(áMNSTR(4)ù10)-(áMNSTR(4)ù100)-(áMNSTR(4)ù1000),áMNSTR(4)
+Pause 
+ClrHome
+2üV
+Goto FD
+Lbl MM
+0üA
+ú1üV
+709üN
+709üO
+709üP
+ClrHome
+Menu("World OfWarcraft","Log In",LI,"Copyright Info",AÁ,"Error Recov",ER,"Quit",QU
+Lbl ER
+ClrHome
+Disp "Which file do","you wish to","recover? (1-3,","0 to exit)
+Repeat (Áù92 and Á÷94) or Á=102
+getKeyüÁ
+End
+If Á=102
+Then
+ClrHome
+Goto MM
+End
+If Á=92
+1üF
+If Á=93
+2üF
+If Á=94
+3üF
+SetUpEdáRECOV
+{0,0,0üáRECOV
+SetUpEdáCACC
+10üdim(áCACC)
+If áCACC(1)ø0
+Then
+1üáRECOV(1)
+If F=1
+Then
+DelVar áACC31
+áCACCüáACC31
+End
+If F=2
+Then
+DelVar áACC32
+áCACCüáACC32
+End
+If F=3
+Then
+DelVar áACC33
+áCACCüáACC33
+End
+End
+SetUpEdáCHK
+8üdim(áCHK)
+If áCHK(1)ø0
+Then
+1üáRECOV(2)
+If F=1
+Then
+DelVar áHK31
+áCHKüáHK31
+End
+If F=2
+Then
+DelVar áHK32
+áCHKüáHK32
+End
+If F=3
+Then
+DelVar áHK33
+áCHKüáHK33
+End
+SetUpEdáCWOWB
+If dim(áCWOWB)=20
+Then
+1üáRECOV(3)
+If F=1
+Then
+DelVar áWB31
+áCWOWBüáWB31
+End
+If F=2
+Then
+DelVar áWB32
+áCWOWBüáWB32
+End
+If F=3
+Then
+DelVar áWB33
+áCWOWBüáWB33
+End
+End
+End
+ClrHome
+Disp "Recov complete.
+0üG
+If áRECOV(1)=1 or áRECOV(2)=1 or áRECOV(3)=1
+Then
+1üG
+If F=1
+Disp "File 1 recovered
+If F=2
+Disp "File 2 recovered
+If F=3
+Disp "File 3 recovered
+Else
+Disp "No files found
+End
+If G=1
+Disp "Files recovered:
+If áRECOV(1)=1
+Disp "&nbsp;&nbsp;Location","&nbsp;&nbsp;Password
+If áRECOV(2)=1
+Disp "&nbsp;&nbsp;Hotkeys
+If áRECOV(3)=1
+Disp "&nbsp;&nbsp;Bags
+Pause 
+ClrHome
+DelVar áRECOV
+Goto MM
+Lbl AÁ
+ClrHome
+Disp " prgmWOW&nbsp;&nbsp;v1.4:","Copyright 2008:","&nbsp;&nbsp;&nbsp;Firered164","","&nbsp;&nbsp;&nbsp;&nbsp;World of","&nbsp;&nbsp;&nbsp;&nbsp;Warcraft:"," (C): Blizzard
+Pause 
+ClrHome
+Goto MM
+Lbl LI
+Menu("Load account","Account One",A1,"Account Two",A2,"Account Three",A3,"Back",MM,"Quit",QU
+Lbl A1
+1üA
+SetUpEdáACC41
+If dim(áACC41)=0
+{1,1,1,4,8,0,0,0,0,100üáACC41
+SetUpEdáCACC
+áACC41üáCACC
+SetUpEdáHK41
+If dim(áHK41)=0
+{11,22,13,14,15,23,32,33}üáHK41
+SetUpEdáCHK
+áHK41üáCHK
+SetUpEdáWB41
+If dim(áWB41)=0
+{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}üáWB41
+SetUpEdáCWOWB
+áWB41üáCWOWB
+Goto AL
+Lbl A2
+2üA
+SetUpEdáACC42
+If dim(áACC42)=0
+{1,1,1,4,8,0,0,0,0,100üáACC42
+SetUpEdáCACC
+áACC42üáCACC
+SetUpEdáHK42
+If dim(áHK42)=0
+{11,22,13,14,15,23,32,33}üáHK42
+SetUpEdáCHK
+áHK42üáCHK
+SetUpEdáWB42
+{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}üáWB42
+SetUpEdáCWOWB
+áWB42üáCWOWB
+Goto AL
+Lbl A3
+3üA
+SetUpEdáACC43
+If dim(áACC43)=0
+{1,1,1,4,8,0,0,0,0,100üáACC43
+SetUpEdáCACC
+áACC43üáCACC
+SetUpEdáHK43
+If dim(áHK43)=0
+{11,22,13,14,15,23,32,33}üáHK43
+SetUpEdáCHK
+áHK43üáCHK
+SetUpEdáWB43
+{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}üáWB43
+SetUpEdáCWOWB
+áWB43üáCWOWB
+Lbl AL
+If áCACC(6)ø0
+Then
+ClrHome
+Disp "Please enter","password:
+DelVar L
+4üdim(L
+For(B,1,4
+Repeat L(B)ø0
+getKeyüL(B)
+End
+Output(2,B+9,".
+End
+If L(1)øáCACC(6) or L(2)øáCACC(7) or L(3)øáCACC(8) or L(4)øáCACC(9)
+Then
+Disp "Password","incorrect
+Pause 
+ClrHome
+Goto LI
+End
+End
+ClrHome
+Disp "Loading...
+For(L,1,100
+End
+Disp "Loaded
+For(L,1,150
+End
+If áCACC(2)ø1 or áCACC(3)ø1
+Goto 9E
+Lbl S1
+[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]ü[A]
+Lbl DS
+Goto IM
+Lbl KÁ
+ú1üV
+ClrHome
+For(B,1,16
+For(C,1,8
+Output(C,B,sub(" !+-O/MP",[A](C+1,B+1)+1,1)
+End
+End
+Goto 1
+Lbl IM
+randInt0,5üG
+If G=0 or Vøú1
+Goto KÁ
+For(H,1,G
+Repeat [A](I,J)=6
+randInt3,8üI
+randInt3,16üJ
+If [A](I,J)=0 and Iø4 and Jø8 and IøáCACC(4)+1 and JøáCACC(5)+1
+6ü[A](I,J)
+End
+End
+Goto KÁ
+Lbl 1
+getKeyüÁ
+If Á=34 or (Áù24 and Á÷26)
+Output(áCACC(4),áCACC(5)," 
+If Á=24 and áCACC(5)>1
+Then
+If [A](áCACC(4)+1,áCACC(5))=0
+áCACC(5)-1üáCACC(5)
+End
+If Á=25 and áCACC(4)>1
+Then
+If [A](áCACC(4),áCACC(5)+1)=0
+áCACC(4)-1üáCACC(4)
+End
+If Á=26 and áCACC(5)<16
+Then
+If [A](áCACC(4)+1,áCACC(5)+2)=0
+áCACC(5)+1üáCACC(5)
+End
+If Á=34 and áCACC(4)<8
+Then
+If [A](áCACC(4)+2,áCACC(5)+1)=0
+áCACC(4)+1üáCACC(4)
+End
+Output(áCACC(4),áCACC(5),"V
+If áCACC(4)=1 and Á=25 and áCACC(2)<4
+Then
+áCACC(2)+1üáCACC(2)
+8üáCACC(4)
+Goto 9E
+End
+If áCACC(4)=8 and Á=34 and áCACC(2)>1 and áCACC(3)ø1
+Then
+áCACC(2)-1üáCACC(2)
+1üáCACC(4)
+Goto 9E
+End
+If Á=24 and áCACC(5)=1 and áCACC(2)=1 and áCACC(3)=2
+Then
+1üáCACC(3)
+16üáCACC(5)
+Goto S1
+End
+If áCACC(5)=1 and Á=24 and áCACC(3)>1
+Then
+áCACC(3)-1üáCACC(3)
+16üáCACC(5)
+Goto 9E
+End
+If áCACC(5)=16 and Á=26 and áCACC(3)<4
+Then
+áCACC(3)+1üáCACC(3)
+1üáCACC(5)
+Goto 9E
+End
+If áCACC(4)=8 and Á=34 and áCACC(2)=2 and áCACC(3)=1
+Then
+1üáCACC(2)
+1üáCACC(4)
+Goto S1
+End
+If Á=áCHK(1)
+Goto OP
+If Á=áCHK(2)
+Goto LO
+If Á=áCHK(3)
+Goto CH
+If Á=áCHK(4)
+Goto HK
+If Á=áCHK(5)
+Goto MA
+If Á=áCHK(6)
+Goto BA
+If Á=áCHK(7)
+Goto SÁ
+If Á=áCHK(8)
+Goto PS
+If Á=21 or Á=31
+Then
+If [A](áCACC(4),áCACC(5))=6
+Then
+áCACC(4)üI
+áCACC(5)üJ
+Goto 9F
+End
+If [A](áCACC(4),áCACC(5)+1)=6
+Then
+áCACC(4)üI
+áCACC(5)+1üJ
+Goto 9F
+End
+If [A](áCACC(4),áCACC(5)+2)=6
+Then
+áCACC(4)üI
+áCACC(5)+2üJ
+Goto 9F
+End
+If [A](áCACC(4)+1,áCACC(5))=6
+Then
+áCACC(4)+1üI
+áCACC(5)üJ
+Goto 9F
+End
+If [A](áCACC(4)+1,áCACC(5)+2)=6
+Then
+áCACC(4)+1üI
+áCACC(5)+2üJ
+Goto 9F
+End
+If [A](áCACC(4)+2,áCACC(5))=6
+Then
+áCACC(4)+2üI
+áCACC(5)üJ
+Goto 9F
+End
+If [A](áCACC(4)+2,áCACC(5)+1)=6
+Then
+áCACC(4)+2üI
+áCACC(5)+1üJ
+Goto 9F
+End
+If [A](áCACC(4)+2,áCACC(5)+2)=6
+Then
+áCACC(4)+2üI
+áCACC(5)+2üJ
+Goto 9F
+End
+Lbl FD
+If V=0
+Then
+{áCACC(1),1,1,4,8,áCACC(6),áCACC(7),áCACC(8),áCACC(9),100üáCACC
+Goto S1
+End
+If V=1 or V=2
+Goto DS
+End
+Goto 1
+Lbl OP
+ClrDraw
+Text(0,0,"Options
+Text(6,0,"1 - Return to game
+Text(12,0,"2 - Chat
+Text(18,0,"3 - Map
+Text(24,0,"4 - Hot Keys
+Text(30,0,"5 - Logout
+Text(36,0,"6 - Spellbook
+Text(42,0,"7 - Bags
+Text(48,0,"8 - Password settings
+0üÁ
+Repeat (Áù72 and Á÷73) or (Áù82 and Á÷84) or (Áù92 and Á÷94)
+getKeyüÁ
+End
+If Á=93
+Goto CH
+If Á=94
+Goto MA
+If Á=82
+Goto HK
+If Á=83
+Goto LO
+If Á=84
+Goto SÁ
+If Á=72
+Goto BA
+If Á=73
+Goto PS
+Goto 1
+Lbl CH
+Goto 9C
+Lbl PS
+Menu("Password sets","Return to game",1,"Options",OP,"Change pass",CP,"Delete pass",DP
+Lbl LO
+Menu("Logout","Log Out",LG,"Quit Now",QQ,"Options",OP,"Return to game",1
+Lbl QU
+ClrHome
+SetUpEdáACC41
+ArchiveáACC41
+SetUpEdáACC42
+ArchiveáACC42
+SetUpEdáACC43
+ArchiveáACC43
+SetUpEdáHK41
+ArchiveáHK41
+SetUpEdáHK42
+ArchiveáHK42
+SetUpEdáHK43
+ArchiveáHK43
+SetUpEdáWB41
+ArchiveáWB41
+SetUpEdáWB42
+ArchiveáWB42
+SetUpEdáWB43
+ArchiveáWB43
+DelVar áCACCDelVar áCHKDelVar áCWOWBDelVar [A]DelVar NDelVar ODelVar PDelVar L
+Return
+Lbl LG
+ClrHome
+Output(2,8,"20
+Output(4,1,"Press any key to
+Output(5,1,"return to game.
+For(L,20.5,0,ú.05
+Output(2,8+(L<10),int(L
+If L=9.5
+Output(2,8,"0
+If getKey
+Then
+ClrHome
+Goto DS
+End
+End
+0üC
+Goto QR
+Lbl QQ
+1üC
+Lbl QR
+If A=1
+Then
+áCHKüáHK41
+áCACCüáACC41
+End
+If A=2
+Then
+áCHKüáHK42
+áCACCüáACC42
+End
+If A=3
+Then
+áCHKüáHK43
+áCACCüáACC43
+End
+If C=1
+Goto QU
+Goto MM
+Lbl HK
+Menu("Hot Keys","Return to game",1,"Options",OP,"New Hot Key(s)",NK
+Lbl CP
+ClrHome
+If áCACC(6)ø0
+Then
+Disp "Enter old","password:
+DelVar L
+4üdim(L
+For(B,1,4
+Repeat L(B)ø0
+getKeyüL(B)
+End
+Output(2,9+B,".
+End
+If L(1)øáCACC(6) or L(2)øáCACC(7) or L(3)øáCACC(8) or L(4)øáCACC(9)
+Then
+Disp "Password","incorrect
+Pause 
+ClrHome
+Goto DS
+End
+End
+ClrHome
+Disp "Please enter new","password.","Digit:
+For(B,6,9
+0üáCACC(B)
+Output(3,8,B-5
+Repeat áCACC(B)ø0
+getKeyüáCACC(B)
+End
+End
+Disp "Password","accepted.
+Pause 
+ClrHome
+Goto DS
+Lbl DP
+ClrHome
+If áCACC(6)=0
+Then
+Disp "There is no set","password.
+Pause 
+ClrHome
+Goto DS
+End
+0üáCACC(6)
+0üáCACC(7)
+0üáCACC(8)
+0üáCACC(9)
+Disp "Password deleted
+Pause 
+ClrHome
+Goto DS
+Lbl NK
+ClrDraw
+Text(0,0,"Set new Hot Keys
+Text(6,0,"1 - Options
+Text(12,0,"2 - Logout
+Text(18,0,"3 - Chat
+Text(24,0,"4 - Hot Keys
+Text(30,0,"5 - Map
+Text(36,0,"6 - Bags
+Text(42,0,"7 - Spellbook
+Text(48,0,"8 - Password settings
+Text(54,0,"9 - Back
+0üÁ
+Repeat (Áù1 and Á÷8)
+getKeyüÁ
+If Á=92:1üÁ
+If Á=93:2üÁ
+If Á=94:3üÁ
+If Á=82:4üÁ
+If Á=83:5üÁ
+If Á=84:6üÁ
+If Á=72:7üÁ
+If Á=73:8üÁ
+If Á=74
+Then
+ClrDraw
+Goto HK
+End
+End
+ÁüC
+ClrDraw
+Text(0,0,"Press appropriate key
+Text(6,0,"to set to hot key.
+Text(12,0,"Press [CLEAR] to exit.
+0üÁ
+Repeat Áø0 and Áø21 and Áø34 and Áø24 and Áø25 and Áø26 and Áø45 and Áø105 and Áø31
+getKeyüÁ
+If Á=45
+Then
+ClrDraw
+Goto NK
+End
+End
+ÁüáCHK(C)
+Goto NK
+Lbl MA
+Menu("Maps","Return to game",1,"Options",OP,"View maps",VM,"Current region",VR
+Lbl VR
+ClrHome
+Disp "You are in","region
+If áCACC(2)=1
+Then
+If áCACC(3)=1
+1üZ
+If áCACC(3)=2
+2üZ
+If áCACC(3)=3
+9üZ
+If áCACC(3)=4
+13üZ
+End
+If áCACC(2)=2
+Then
+If áCACC(3)=1
+3üZ
+If áCACC(3)=2
+4üZ
+If áCACC(3)=3
+10üZ
+If áCACC(3)=4
+14üZ
+End
+If áCACC(2)=3
+Then
+If áCACC(3)=1
+5üZ
+If áCACC(3)=2
+6üZ
+If áCACC(3)=3
+11üZ
+If áCACC(3)=4
+15üZ
+End
+If áCACC(2)=4
+Then
+If áCACC(3)=1
+7üZ
+If áCACC(3)=2
+8üZ
+If áCACC(3)=3
+12üZ
+If áCACC(3)=4
+16üZ
+End
+Disp Z
+Pause 
+ClrHome
+Goto DS
+Lbl VM
+0üZ
+ClrHome
+Disp "View region(1-16","(0 to exit, and ","17 for full map)
+Repeat Zù0 and Z÷17
+Input "",Z
+End
+If Z=0
+Goto DS
+ClrHome
+If Z=1
+Then
+For(L,1,7
+Output(L,1,"!
+End
+Output(8,1,"+---------------
+End
+If Z=2
+Then
+For(L,1,7
+Output(L,16,"O
+End
+Output(8,1,"----------------
+End
+If Z=3 or Z=5
+Then
+For(L,1,8
+Output(L,1,"!
+End
+End
+If Z=4
+Then
+Output(4,4,"OO
+Output(5,4,"OO
+Output(8,16,"O
+End
+If Z=7
+Then
+Output(1,1,"+---------------
+For(L,2,8
+Output(L,1,"!
+End
+End
+If Z=8
+Then
+Output(1,1,"----------------
+Output(4,4,"OO
+Output(5,4,"OO
+End
+If Z=9
+Then
+For(L,1,7
+Output(L,1,"O
+End
+Output(4,4,"OO
+Output(5,5,"O
+Output(5,10,"O
+Output(8,1,"----------------
+End
+If Z=10
+Then
+Output(2,8,"O
+Output(3,10,"O
+Output(1,14,"O
+Output(5,2,"O
+Output(6,2,"O
+Output(8,1,"O
+End
+If Z=11
+Then
+Output(7,2,"O
+Output(6,3,"O
+Output(7,6,"O
+Output(8,14,"O
+Output(4,11,"O
+End
+If Z=12
+Then
+Output(1,1,"----------------
+Output(2,2,"OO
+Output(3,4,"OO
+Output(4,6,"OO
+Output(5,8,"OO
+Output(6,10,"OO
+Output(7,13,"OO
+End
+If Z=13
+Then
+For(L,1,3
+Output(L,16,"!
+End
+Output(4,16,"/
+For(L,5,7
+Output(L,16,"!
+End
+Output(8,1,"---------------+
+End
+If Z=14 or Z=15
+Then
+For(L,1,8
+Output(L,16,"!
+End
+End
+If Z=16
+Then
+Output(1,1,"---------------+
+For(L,2,8
+Output(L,16,"!
+End
+End
+If Z=17
+Goto WM
+Repeat getKey
+End
+ClrHome
+Goto DS
+Lbl WM
+ClrDraw
+0üTmin
+62üÁmax
+0üÁmin
+94üTmax
+Line(16,16,79,16
+Line(16,16,16,47
+Line(16,47,79,47
+Line(79,47,79,16
+Pt-On(35,27
+Pt-On(36,27
+Pt-On(35,28
+Pt-On(36,28
+Pt-On(35,43
+Pt-On(36,43
+Pt-On(35,44
+Pt-On(36,44
+Pt-On(49,46
+Pt-On(50,46
+Pt-On(51,45
+Pt-On(52,45
+Pt-On(53,44
+Pt-On(54,44
+Pt-On(55,43
+Pt-On(56,43
+Pt-On(57,42
+Pt-On(58,42
+Pt-On(60,41
+Pt-On(61,41
+Pt-On(49,26
+Pt-On(49,27
+Line(48,24,48,17
+Line(47,24,47,17
+Pt-On(58,36
+Pt-On(50,34
+Pt-On(49,33
+Pt-On(53,33
+Pt-On(61,32
+Pt-On(61,31
+Pt-On(55,30
+Pt-On(57,29
+Pt-On(57,19
+Pt-On(52,19
+Pt-On(52,20
+Pt-On(51,20
+Repeat getKey
+End
+ClrDraw
+ClrHome
+Goto DS
+Lbl BA
+Goto 9B
+ClrHome
+Goto DS
+Lbl SÁ
+Menu("Spellbook","Return to game",1,"Options",OP,"Teleportation",TE
+Lbl TE
+ClrHome
+Disp "Teleport to","region 1-16","(0 to exit)
+Repeat Z>0 and Z÷16
+Input "Region: ",Z
+If Z=0
+Goto DS
+End
+If Z=1 or Z=2 or Z=9 or Z=13
+1üáCACC(2)
+If Z=3 or Z=4 or Z=10 or Z=14
+2üáCACC(2)
+If Z=5 or Z=6 or Z=11 or Z=15
+3üáCACC(2)
+If Z=7 or Z=8 or Z=12 or Z=16
+4üáCACC(2)
+If Z=1 or Z=3 or Z=5 or Z=7
+1üáCACC(3)
+If Z=2 or Z=4 or Z=6 or Z=8
+2üáCACC(3)
+If Z=9 or Z=10 or Z=11 or Z=12
+3üáCACC(3)
+If Z=13 or Z=14 or Z=15 or Z=16
+4üáCACC(3)
+4üáCACC(4)
+8üáCACC(5)
+If Z=1
+Goto S1
+Goto 9E
+Lbl 9B
+ClrDraw
+Text(0,0,"Bags:
+For(Q,1,7,2
+Text(6Q,0,"Option ",Q-(Q>1)-(Q>3)-(Q>5)," (",Q-(Q>1)-(Q>3)-(Q>5),"):
+End
+Text(12,0,"Back to game
+Text(24,0,"View prev bag
+Text(36,0,"View next bag
+Text(48,0,"Item details
+Text(56,0,"prgmWOW
+Line(((Tmin+Tmax)/2),Ámin,((Tmin+Tmax)/2),Ámax
+For(Q,0,8,2
+Text(6Q,49,"Item ",Q+1-(Q>0)-(Q>2)-(Q>4)-(Q>6)," (",Q+5-(Q>0)-(Q>2)-(Q>4)-(Q>6),"):
+End
+"vv items disp
+"^^ items disp
+3üQ
+Lbl B1
+Pxl-OffQ,47)
+0üÁ
+Repeat (Áù72 and Á÷74) or (Áù82 and Á÷84) or (Áù92 and Á÷94) or Á=105 or Á=25 or Á=34
+getKeyüÁ
+End
+Q+12(Á=34 and Q<51)-12(Á=25 and Q>3)üR
+If QøR
+Pxl-On(Q,47)
+RüQ
+If Á=92
+Then
+ClrDraw
+Goto DS
+End
+If Á=93
+"prev bag cmd
+If Á=94
+"next bag cmd
+If Á=82
+"bag detail
+If Á=83 or (Á=105 and Q=3)
+"option 1
+If Á=84 or (Á=105 and Q=15)
+"option 2
+If Á=72 or (Á=105 and Q=27)
+"option 3
+If Á=73 or (Á=105 and Q=39)
+"option 4
+If Á=74 or (Á=105 and Q=51)
+"option 5
+Goto B1
+Lbl 9C
+If áCACC(1)=1
+"GeneralüStr1
+If áCACC(1)=2
+"GuildüStr1
+If áCACC(1)=3
+"PartyüStr1
+Input Str1+": ",Str2
+If Str2="/C
+1üáCACC(1)
+If Str2="/G
+2üáCACC(1)
+If Str2="/P
+3üáCACC(1)
+If Str2="/BACK
+Then
+ClrHome
+Goto DS
+End
+If Str2="/HELP
+Then
+ClrDraw
+Text(0,0,"World of Warcraft Chat Help
+Text(6,0,"World of Warcraft has a chat
+Text(12,5,"function that can be accessed
+Text(18,5,"only from the game menu.
+Text(24,0,"To acces the General chat,
+Text(30,5,"press '/C', to access
+Text(36,5,"Guild, '/G', Party '/P'.
+Text(42,5,"Type '/BACK' to return
+Text(48,5,"to game.
+Text(54,0,"Press [ENTER] to continue.
+Pause 
+ClrDraw
+End
+Goto 9C

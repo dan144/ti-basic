@@ -1,0 +1,162 @@
+Word Wrap on (Format -> Word Wrap)
+
+                   _______    ____                ______
+|     /|     /    /      /   /   /     /         /      \
+|    / |    /    /      /   /   /     /         /       /
+|   /  |   /    /      /   /___/     /         /       /
+|  /   |  /    /      /   /    \    /         /       /
+| /    | /    /      /   /     /   /         /       /
+|/     |/    /______/   /     /   /______   /_______/
+
+      ________     _______                      _______    ____
+     /       /    /          |     /|     /    /      /   /   /
+    /       /    /           |    / |    /    /      /   /   /
+   /       /    /------      |   /  |   /    /------/   /___/    -----
+  /       /    /             |  /   |  /    /      /   /    \
+ /       /    /              | /    | /    /      /   /     /
+/_______/    /               |/     |/    /      /   /     /
+
+     ______    ____     ______    ______   ______
+    /         /   /    /     /   /           /
+   /         /___/    /     /   /           /
+  /         /    \   /-----/   /-----      /
+ /         /     /  /     /   /           /
+/______   /     /  /     /   /           /
+
+
+prgmWOW v1.2
+
+------------Readme------------
+
+* * * * * * * * * * * * * * * * * * * * *
+*					*
+*	I.	What's new?		*
+*	II.	Compatibility		*
+*	III.	Controls		*
+*	IV.	Orientation		*
+*	V.	Addons/subprograms	*
+*	VI.	Bugs/troubleshooting	*
+*	VII.	Notes			*
+*	VIII.	Legal			*
+*					*
+* * * * * * * * * * * * * * * * * * * * *
+
+I.	What's new in version 1.2?
+
+New in v1.2:
+	--Spellbook
+		--Teleportation
+	--Password protection
+		--Optional and individual for each account
+	--Bags
+		--prgmWOWBAG is nearing completion and has been integrated into prgmWOW.  The subprogram will has not been released yet.
+	--Hot Keys
+		--Spellbook hotkey, Bag hotkey, and password setting hotkey
+
+
+II.	Compatibility
+
+PrgmWOW v1.2 is compatable with:
+
+	--83+*
+	--84+
+	--84+ SE
+	--nSpire  (84+ SE keypad)
+
+*TI 83+s will fit prgmWOW, but it takes a lot of memory, so it is a strecth to fit prgmWOW and many subprograms on it.
+
+
+III.	Controls
+
+The arrow keys move the "V" (that's you.  Still.).
+
+	---Obstacles:---
+
+Obstacles* include:
+
+	+
+	-
+	!
+	O
+
+*An obstacle is something you can't walk through.  If you have a blank space on screen, and you can't walk through it, tell me about it or get over it, but I don't know of any said bugs.
+
+Special obstacle:  /.  This is still only located in one place in region 13.  It still serves no purpose, but future versions may use it.  I have not yet made more space.  As of now, though, you can't walk through it.
+
+	---Hot Keys:---
+
+There are three new hot keys in v1.2.  They take you to the spellbook, the password settings and the bags, respectively.  [CLEAR] to go back, and you cannot use up, down, left, right or 2nd.  Y= is the option menu hotkey at the beginning, but you can change it.  Simply press Y= on the screens where you are walking around as the "V".
+
+
+IV.	Orientation
+
+Region orientation:
+ _______________ _______________ _______________ _______________
+|		|		|		|		|
+|	7	|	8	|	12	|	16	|
+|		|		|		|		|
+|_______________|_______________|_______________|_______________|
+|		|		|		|		|
+|	5	|	6	|	11	|	15	|
+|		|		|		|		|
+|_______________|_______________|_______________|_______________|
+|		|		|		|		|
+|	3	|	4	|	10	|	14	|
+|		|		|		|		|
+|_______________|_______________|_______________|_______________|
+|		|		|		|		|
+|	1	|	2	|	9	|	13	|
+|		|		|		|		/
+|_______________|_______________|_______________|_______________|
+
+Region 1 comes with prgmWOW.
+Regions 2-4 come with prgmWOWXPNS5.
+Regions 5-8 come with prgmWOWXPNS6.
+Regions 9-12 come with prgmWOWXPNS7.
+Regions 13-16 come with prgmWOWXPNS8.
+
+
+V.	Addons/subprograms
+
+PrgmWOW uses several subprograms to run at it's fullest capacity.  As of v1.2, there are 6, varying in size up to nearly 1700 bytes. The total memory used is approximately 17k (17666) bytes.  PrgmWOWCHAT now cannot be used unless first installed by running the program itself.  The same goes for prgmWOWBAG, but the program is not yet complete and will not be released yet.
+
+Other subprograms are simply for the other regions.  There are currently (9/6/2008) six extension programs.  They are not necessary to run the program, and so far serve no purpose other than extending the area you can walk around in, but that may change in future versions (Region 13 special obstacle.  oooo! ahhh!).
+
+These subprograms are more complicated to use.  Instead of just having them on you calculator, you must run them and install them for them to work with prgmWOW.
+
+	---Installation:---
+
+Simply run the prgmWOWXPNS (followed by a number.) and click install.  If it doesn't say "Installed.", it didn't install.  You probably got a message:
+"Need:
+"prgmWOWXPNS"...
+followed by the number or letter of the program you need.  Scenarios:
+
+1.  You don't have it.
+2.  You didn't install it.
+
+If you didn't, then the program was probably already installed.
+
+Solution:  go install the other program, or go download it, and then install it.
+
+Addons list:
+	--prgmWOWBAG
+	--prgmWOWCHAT2
+	--prgmWOWXPNS5
+	--prgmWOWXPNS6
+	--prgmWOWXPNS7
+	--prgmWOWXPNS8
+
+
+VI.	Bugs
+
+There are no known bugs as of 9/6/08.
+
+
+VII.	Notes
+
+The program WOWBAG is almost done.  It currently lacks the ability to do anything other than display a screen.
+
+
+VIII.	Legal
+
+It is not illeagal to edit this code, that's the bottom line.  But please don't, because I will get mad.

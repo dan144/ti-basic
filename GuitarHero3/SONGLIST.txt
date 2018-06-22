@@ -1,0 +1,81 @@
+ClrDraw
+Text(0,0,"Song List > 
+SetUpEdá
+If dim(á&nbsp;&nbsp;)>0
+Then
+Text(7,0,"1 - 
+1üL†(1
+End
+SetUpEdá
+If dim(á&nbsp;&nbsp;)>0
+Then
+Text(14,0,"2 -
+1üL†(2
+End
+SetUpEdá
+If dim(á&nbsp;&nbsp;)>0
+Then
+Text(21,0,"3 -
+1üL†(3
+End
+SetUpEdá
+If dim(á&nbsp;&nbsp;)>0
+Then
+Text(28,0,"4 -
+1üL†(4
+End
+SetUpEdá
+If dim(á&nbsp;&nbsp;)>0
+Then
+Text(35,0,"5 -
+1üL†(5
+End
+SetUpEdá
+If dim(á&nbsp;&nbsp;)>0
+Then
+Text(42,0,"6 -
+1üL†(6
+End
+SetUpEdá
+If dim(á&nbsp;&nbsp;)>0
+Then
+Text(49,0,"7 -
+1üL†(7
+End
+Text(56,0,"8 - Back 
+0üÁ
+Repeat Á=92 or (Á=93 and dim(á )>0) or (Á=94 and dim(á )>0) or (Á=82 and dim(á )>0) or (Á=83 and dim(á )>0) or (Á=84 and dim(á )>0) or (Á=72 and dim(á )>0) or Á=73
+getKeyüÁ
+End
+If Á=73
+Then
+If dim(á )>0
+Archiveá
+If dim(á )>0
+Archiveá
+If dim(á )>0
+Archiveá
+If dim(á )>0
+Archiveá
+If dim(á )>0
+Archiveá
+If dim(á )>0
+Archiveá
+If dim(á )>0
+Archiveá
+Goto SL
+End
+If Á=92
+á üL
+If Á=93
+á üL
+If Á=94
+á üL
+If Á=82
+á üL
+If Á=83
+á üL
+If Á=84
+á üL
+If Á=72
+á üL

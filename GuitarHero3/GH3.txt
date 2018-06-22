@@ -1,0 +1,336 @@
+{1üL
+0üI
+ú47üTmin
+31üÁmax
+47üTmax
+ú31üÁmin
+AxesOff
+FnOff 
+ClrDraw
+Lbl I
+For(A,50,5,ú5
+Text(ú1,A,9,"Guitar Hero 3
+End
+For(A,1,150
+End
+ClrDraw
+Text(ú1,5,9,"Guitar Hero 3
+Text(14,27,"Created by:
+For(A,91,27,ú4
+Text(22,A,"Firered164&nbsp;&nbsp;&nbsp;&nbsp;"
+End
+For(A,40,47
+VerticaA
+VerticaúA
+End
+For(A,0,ú31,ú1
+HorizonA
+End
+0üA
+If I=1
+Then
+For(A,1,200
+End
+Goto MM
+End
+Repeat A=400 or getKey
+A+1üA
+End
+Lbl MM
+0üP
+1üI
+0üA
+SetUpEdáS1
+SetUpEdáS2
+SetUpEdáS3
+SetUpEdáS4
+SetUpEdáS5
+SetUpEdáS6
+SetUpEdáS7
+ClrDraw
+ClrHome
+Menu("Guitar Hero 3","Play",P,"Song-maker",SM,"How-to",H,"Replay Intro",I,"Quit",Q
+Lbl Q
+{0,0,0,0,0,0,0üL†
+If dim(áS1)=0
+1üL†(1
+If dim(áS1)>0
+ArchiveáS1
+If dim(áS2)=0
+1üL†(2
+If dim(áS2)>0
+ArchiveáS2
+If dim(áS3)=0
+1üL†(3
+If dim(áS3)>0
+ArchiveáS3
+If dim(áS4)=0
+1üL†(4
+If dim(áS4)>0
+ArchiveáS4
+If dim(áS5)=0
+1üL†(5
+If dim(áS5)>0
+ArchiveáS5
+If dim(áS6)=0
+1üL†(6
+If dim(áS6)>0
+ArchiveáS6
+If dim(áS7)=0
+1üL†(7
+If dim(áS7)>0
+ArchiveáS7
+If L†(1)=1
+DelVar áS1
+If L†(2)=1
+DelVar áS2
+If L†(3)=1
+DelVar áS3
+If L†(4)=1
+DelVar áS4
+If L†(5)=1
+DelVar áS5
+If L†(6)=1
+DelVar áS6
+If L†(7)=1
+DelVar áS7
+DelVar LDelVar L†
+Return
+Lbl H
+Text(0,0,"Guitar Hero 3 How-to:
+Text(7,0,"If the note is in column 1,
+Text(14,0,"press [Y=].&nbsp;&nbsp;If the note is in
+Text(21,0,"column 2, press [WINDOW].
+Text(28,0,"If the note is in column 3,
+Text(35,0,"press [ZOOM]. 4 - [TRACE].
+Text(42,0,"5 - [GRAPH]. To exit while
+Text(49,0,"playing a song press [CLEAR].
+Text(56,0,"There is no Star Power.
+Pause 
+Goto MM
+Lbl P
+Menu("GH3 Songs","Song List",SL,"Random",R,"Back",MM
+Lbl R
+1üT
+Goto DF
+Lbl SL
+2üT
+{0,0,0,0,0,0,0üL†
+Menu("Song List:","Practice set",PR,"Back",P
+Lbl PR
+ClrDraw
+Text(0,0,"Song List > Practice set
+If dim(áS1)>0
+Then
+Text(7,0,"1 - Song 1
+1üL†(1
+End
+If dim(áS2)>0
+Then
+Text(14,0,"2 - Song 2
+1üL†(2
+End
+If dim(áS3)>0
+Then
+Text(21,0,"3 - Song 3
+1üL†(3
+End
+If dim(áS4)>0
+Then
+Text(28,0,"4 - Song 4
+1üL†(4
+End
+If dim(áS5)>0
+Then
+Text(35,0,"5 - Song 5
+1üL†(5
+End
+If dim(áS6)>0
+Then
+Text(42,0,"6 - Song 6
+1üL†(6
+End
+If dim(áS7)>0
+Then
+Text(49,0,"7 - Song 7
+1üL†(7
+End
+Text(56,0,"8 - Back 
+0üÁ
+Repeat (Á=92 and dim(áS1)>0) or (Á=93 and dim(áS2)>0) or (Á=94 and dim(áS3)>0) or (Á=82 and dim(áS4)>0) or (Á=83 and dim(áS5)>0) or (Á=84 and dim(áS6)>0) or (Á=72 and dim(áS7)>0) or Á=73
+getKeyüÁ
+End
+If Á=73
+Goto SL
+If Á=92
+áS1üL
+If Á=93
+áS2üL
+If Á=94
+áS3üL
+If Á=82
+áS4üL
+If Á=83
+áS5üL
+If Á=84
+áS6üL
+If Á=72
+áS7üL
+Lbl DF
+Menu("Difficulty?","Easy",EA,"Medium",MD,"Hard",HA,"Expert",EX,"Back",P
+Lbl EA
+35üU
+3üL
+Goto P1
+Lbl MD
+35üU
+4üL
+Goto P1
+Lbl HA
+18üU
+4üL
+Goto P1
+Lbl EX
+8üU
+5üL
+Lbl P1
+Disp "","","","","","","
+0üA
+Repeat Á=45 or (T=2 and A=dim(L)-5
+If T=1
+randInt1,LüX
+If T=2
+Then
+A+1üA
+L(A)üX
+End
+Disp "
+If X=1
+Then
+Output(8,1,"()
+End
+If X=2
+Then
+Output(8,4,"()
+End
+If X=3
+Then
+Output(8,8,"()
+End
+If X=4 and L>3
+Then
+Output(8,12,"()
+End
+If X=5 and L>4
+Then
+Output(8,15,"()
+End
+0üÁ
+For(B,0,U
+End
+getKeyüÁ
+If A>7
+Then
+If (Á-10=L(A-7)) and (L(A-7)÷L)
+P+1üP
+End
+If Á=45
+Goto MM
+End
+ClrHome
+Disp "Song Finished
+If L=3
+100(P/L(dim(L)-2))üT
+If L=4
+100(P/L(dim(L)-1))üT
+If L=5
+100(P/L(dim(L)))üT
+round(T,0üT
+Disp "&nbsp;&nbsp;&nbsp;percent"
+Output(2,1,T
+Pause 
+Goto MM
+Lbl SM
+Menu("Song-maker","Make new song",NS,"Delete song",DS,"Back",MM
+Lbl NS
+ClrHome
+Disp "Press the button","that relates to","the note you","want next. Press","clear to finish.
+Pause 
+ClrHome
+0üdim(L
+{0,0,0,0,0üL†
+Repeat Á=45 or dim(L)=998-15
+Output(1,1,"Notes:
+Output(1,8,dim(L
+Repeat (Áù11 and Á÷15) or Á=105
+getKeyüÁ
+If Á=45
+Goto EN
+End
+dim(L)+1üdim(L
+If Á=105
+0üL(dim(L))
+If Áø105
+Then
+Á-10üL(dim(L))
+L†(Á-10)+1üL†(Á-10)
+End
+End
+Lbl EN
+If dim(L)=0
+Goto MM
+Disp "Song complete","Save in which","slot?","(1-7, 0 exit)
+0üÁ
+Repeat Á=72 or (Áù82 and Á÷84) or (Áù92 and Á÷94) or Á=102
+getKeyüÁ
+End
+If Á=102
+Goto MM
+dim(L)+15üdim(L
+For(A,dim(L)-15,dim(L
+6üL(A
+End
+L†(1)+L†(2)+L†(3)üL(dim(L)-2
+L†(1)+L†(2)+L†(3)+L†(4)üL(dim(L)-1
+dim(L)-10üL(dim(L
+If Á=92
+LüáS1
+If Á=93
+LüáS2
+If Á=94
+LüáS3
+If Á=82
+LüáS4
+If Á=83
+LüáS5
+If Á=84
+LüáS6
+If Á=72
+LüáS7
+Disp "Song saved
+Pause 
+Goto MM
+Lbl DS
+ClrHome
+Disp "Delete which","song?","(1-7, 0 exit)
+0üÁ
+Repeat Á=72 or (Áù82 and Á÷84) or (Áù92 and Á÷94) or Á=102
+getKeyüÁ
+End
+If Á=102
+Goto MM
+If Á=92
+DelVar áS1
+If Á=93
+DelVar áS2
+If Á=94
+DelVar áS3
+If Á=82
+DelVar áS4
+If Á=83
+DelVar áS5
+If Á=84
+DelVar áS6
+If Á=72
+DelVar áS7
+Goto MM

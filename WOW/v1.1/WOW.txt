@@ -1,0 +1,500 @@
+Lbl MM
+SetUpEd·INSTL
+SetUpEd·WOW
+If dim(·WOW)=0 or dim(·INSTL)=0
+Then
+{1,1¸·WOW
+{0,0,0,0¸·INSTL
+End
+0¸A
+˙1¸D
+709¸N
+709¸O
+709¸P
+ClrHome
+Menu("World OfWarcraft","Log In",LI,"Copyright Info",A¡,"Quit",QU
+Lbl A¡
+ClrHome
+Disp "&nbsp;&nbsp;&nbsp;&nbsp;prgmWOW:","Copyright 2008:","&nbsp;&nbsp;&nbsp;Firered164","","&nbsp;&nbsp;&nbsp;&nbsp;World of","&nbsp;&nbsp;&nbsp;&nbsp;Warcraft:"," (C): Blizzard
+Pause 
+ClrHome
+Goto MM
+Lbl LI
+Menu("Load account","Account One",A1,"Account Two",A2,"Account Three",A3,"Back",MM,"Quit",QU
+Lbl A1
+1¸A
+SetUpEd·ACC1
+If dim(·ACC1)=0
+{1,1,1,4,8¸·ACC1
+·ACC1¸·CACC
+SetUpEd·HK1
+If dim(·HK1)=0
+{11,22,13,14,15}¸·HK1
+·HK1¸·CHK
+Goto AL
+Lbl A2
+2¸A
+SetUpEd·ACC2
+If dim(·ACC2)=0
+{1,1,1,4,8¸·ACC2
+·ACC2¸·CACC
+SetUpEd·HK2
+If dim(·HK2)=0
+{11,22,13,14,15}¸·HK2
+·HK2¸·CHK
+Goto AL
+Lbl A3
+3¸A
+SetUpEd·ACC3
+If dim(·ACC3)=0
+{1,1,1,4,8¸·ACC3
+·ACC3¸·CACC
+SetUpEd·HK3
+If dim(·HK3)=0
+{11,22,13,14,15}¸·HK3
+·HK3¸·CHK
+Lbl AL
+Disp "Loading...
+For(L,1,100
+End
+Disp "Loaded
+For(L,1,150
+End
+If (·INSTL(1)=0 and (·CACC(2)˘2 or ·CACC(3)˘2)) or (·INSTL(2)=0 and ·CACC(2)˘3) or (·INSTL(3)=0 and ·CACC(3)˘3) or (·INSTL(4)=0 and ·CACC(3)=4)
+{·CACC(1),1,1,4,8¸·CACC
+If ·CACC(2)¯1 or ·CACC(3)¯1 and ·INSTL(1)=1
+Then
+prgmWOWXPNS1
+Goto DS
+End
+Lbl S1
+[[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3]]¸[A]
+Lbl DS
+ClrHome
+For(B,1,16
+For(C,1,8
+Output(C,B,sub(" !+-O/",[A](C,B)+1,1)
+End
+End
+Lbl 1
+getKey¸¡
+If ¡=34 or (¡˘24 and ¡˜26)
+Output(·CACC(4),·CACC(5)," 
+If ¡=24 and ·CACC(5)>1
+Then
+If [A](·CACC(4),·CACC(5)-1)=0
+·CACC(5)-1¸·CACC(5)
+End
+If ¡=25 and ·CACC(4)>1
+Then
+If [A](·CACC(4)-1,·CACC(5))=0
+·CACC(4)-1¸·CACC(4)
+End
+If ¡=26 and ·CACC(5)<16
+Then
+If [A](·CACC(4),·CACC(5)+1)=0
+·CACC(5)+1¸·CACC(5)
+End
+If ¡=34 and ·CACC(4)<8
+Then
+If [A](·CACC(4)+1,·CACC(5))=0
+·CACC(4)+1¸·CACC(4)
+End
+Output(·CACC(4),·CACC(5),"V
+If ·CACC(4)=1 and ¡=25 and ·CACC(2)<·WOW(1)
+Then
+·CACC(2)+1¸·CACC(2)
+8¸·CACC(4)
+prgmWOWXPNS1
+Goto DS
+End
+If ·CACC(4)=8 and ¡=34 and ·CACC(2)>1 and ·CACC(3)¯1
+Then
+·CACC(2)-1¸·CACC(2)
+1¸·CACC(4)
+prgmWOWXPNS1
+Goto DS
+End
+If ¡=24 and ·CACC(5)=1 and ·CACC(2)=1 and ·CACC(3)=2
+Then
+1¸·CACC(3)
+16¸·CACC(5)
+Goto S1
+End
+If ·CACC(5)=1 and ¡=24 and ·CACC(3)>1
+Then
+·CACC(3)-1¸·CACC(3)
+16¸·CACC(5)
+prgmWOWXPNS1
+Goto DS
+End
+If ·CACC(5)=16 and ¡=26 and ·CACC(3)<·WOW(2)
+Then
+·CACC(3)+1¸·CACC(3)
+1¸·CACC(5)
+prgmWOWXPNS1
+Goto DS
+End
+If ·CACC(4)=8 and ¡=34 and ·CACC(2)=2 and ·CACC(3)=1
+Then
+1¸·CACC(2)
+1¸·CACC(4)
+Goto S1
+End
+If ¡=·CHK(1)
+Goto OP
+If ¡=·CHK(2)
+Goto LO
+If ¡=·CHK(3)
+Then
+prgmWOWCHAT
+Goto DS
+End
+If ¡=·CHK(4)
+Goto HK
+If ¡=·CHK(5)
+Goto MA
+Goto 1
+Pause 
+Lbl OP
+Menu("Options","Return to game",1,"Chat",CH,"Map",MA,"Hot Keys",HK,"Logout",LO
+Lbl CH
+prgmWOWCHAT
+Goto DS
+Lbl LO
+Menu("Logout","Log Out",LG,"Quit Now",QQ,"Options",OP,"Return to game",1
+Lbl QU
+ClrHome
+SetUpEd·ACC1
+Archive·ACC1
+SetUpEd·ACC2
+Archive·ACC2
+SetUpEd·ACC3
+Archive·ACC3
+SetUpEd·HK1
+Archive·HK1
+SetUpEd·HK2
+Archive·HK2
+SetUpEd·HK3
+Archive·HK3
+SetUpEd·WOW
+Archive·WOW
+Archive·INSTL
+DelVar ·CACCDelVar ·CHKDelVar [A]DelVar NDelVar ODelVar P
+Return
+Lbl LG
+ClrHome
+Output(2,8,"20
+Output(4,1,"Press any key to
+Output(5,1,"return to game.
+For(L,20.5,0,˙.05
+Output(2,8+(L<10),int(L
+If L=9.5
+Output(2,8,"0
+If getKey
+Then
+ClrHome
+Goto DS
+End
+End
+0¸C
+Goto QR
+Lbl QQ
+1¸C
+Lbl QR
+If A=1
+Then
+·CHK¸·HK1
+·CACC¸·ACC1
+End
+If A=2
+Then
+·CHK¸·HK2
+·CACC¸·ACC2
+End
+If A=3
+Then
+·CHK¸·HK3
+·CACC¸·ACC3
+End
+If C=1
+Goto QU
+Goto MM
+Lbl HK
+Menu("Hot Keys","Return to game",1,"Options",OP,"New Hot Key(s)",NK
+Lbl NK
+Menu("Set new Hot Keys","Options",OK,"Logout",LK,"Chat",CK,"Hot Keys",TK,"Map",MK,"Back",HK
+Lbl OK
+1¸C
+2¸W
+3¸X
+4¸Y
+5¸Z
+Goto KK
+Lbl LK
+1¸W
+2¸C
+3¸X
+4¸Y
+5¸Z
+Goto KK
+Lbl CK
+1¸W
+2¸X
+3¸C
+4¸Y
+5¸Z
+Goto KK
+Lbl TK
+1¸W
+2¸X
+3¸Y
+4¸C
+5¸Z
+Goto KK
+Lbl MK
+1¸W
+2¸X
+3¸Y
+4¸Z
+5¸C
+Lbl KK
+0¸¡
+Repeat ¡¯0 and ¡¯21 and ¡¯34 and ¡¯24 and ¡¯25 and ¡¯26 and ¡¯45 and ¡¯·CHK(W) and ¡¯·CHK(X) and ¡¯·CHK(Y) and ¡¯·CHK(Z)
+getKey¸¡
+If ¡=45
+Goto NK
+End
+¡¸·CHK(C)
+Goto NK
+Lbl MA
+Menu("Maps","Return to game",1,"Options",OP,"View maps",VM,"Current region",VR
+Lbl VR
+ClrHome
+Disp "You are in","region
+If ·CACC(2)=1
+Then
+If ·CACC(3)=1
+1¸Z
+If ·CACC(3)=2
+2¸Z
+If ·CACC(3)=3
+9¸Z
+If ·CACC(3)=4
+13¸Z
+End
+If ·CACC(2)=2
+Then
+If ·CACC(3)=1
+3¸Z
+If ·CACC(3)=2
+4¸Z
+If ·CACC(3)=3
+10¸Z
+If ·CACC(3)=4
+14¸Z
+End
+If ·CACC(2)=3
+Then
+If ·CACC(3)=1
+5¸Z
+If ·CACC(3)=2
+6¸Z
+If ·CACC(3)=3
+11¸Z
+If ·CACC(3)=4
+15¸Z
+End
+If ·CACC(2)=4
+Then
+If ·CACC(3)=1
+7¸Z
+If ·CACC(3)=2
+8¸Z
+If ·CACC(3)=3
+12¸Z
+If ·CACC(3)=4
+16¸Z
+End
+Disp Z
+Pause 
+ClrHome
+Goto DS
+Lbl VM
+0¸Z
+If ·INSTL(1)=0
+1¸Q
+If ·INSTL(1)=1 and ·INSTL(2)=0
+4¸Q
+If ·INSTL(2)=1 and ·INSTL(3)=0
+8¸Q
+If ·INSTL(3)=1 and ·INSTL(4)=0
+12¸Q
+If ·INSTL(4)=1
+16¸Q
+ClrHome
+Disp "View region(1- )","(0 to exit, and ","17 for full map)
+Output(1,15,Q
+Repeat (Z˘0 and Z˜Q) or Z=17
+Input "",Z
+End
+If Z=0
+Goto DS
+ClrHome
+If Z=1
+Then
+For(L,1,7
+Output(L,1,"!
+End
+Output(8,1,"+---------------
+End
+If Z=2
+Then
+For(L,1,7
+Output(L,16,"O
+End
+Output(8,1,"----------------
+End
+If Z=3 or Z=5
+Then
+For(L,1,8
+Output(L,1,"!
+End
+End
+If Z=4
+Then
+Output(4,4,"OO
+Output(5,4,"OO
+Output(8,16,"O
+End
+If Z=7
+Then
+Output(1,1,"+---------------
+For(L,2,8
+Output(L,1,"!
+End
+End
+If Z=8
+Then
+Output(1,1,"----------------
+Output(4,4,"OO
+Output(5,4,"OO
+End
+If Z=9
+Then
+For(L,1,7
+Output(L,1,"O
+End
+Output(4,4,"OO
+Output(5,5,"O
+Output(5,10,"O
+Output(8,1,"----------------
+End
+If Z=10
+Then
+Output(2,8,"O
+Output(3,10,"O
+Output(1,14,"O
+Output(5,2,"O
+Output(6,2,"O
+Output(8,1,"O
+End
+If Z=11
+Then
+Output(7,2,"O
+Output(6,3,"O
+Output(7,6,"O
+Output(8,14,"O
+Output(4,11,"O
+End
+If Z=12
+Then
+Output(1,1,"----------------
+Output(2,2,"OO
+Output(3,4,"OO
+Output(4,6,"OO
+Output(5,8,"OO
+Output(6,10,"OO
+Output(7,13,"OO
+End
+If Z=13
+Then
+For(L,1,3
+Output(L,16,"!
+End
+Output(4,16,"/
+For(L,5,7
+Output(L,16,"!
+End
+Output(8,1,"---------------+
+End
+If Z=14 or Z=15
+Then
+For(L,1,8
+Output(L,16,"!
+End
+End
+If Z=16
+Then
+Output(1,1,"---------------+
+For(L,2,8
+Output(L,16,"!
+End
+End
+If Z=17
+Goto WM
+Repeat getKey
+End
+ClrHome
+Goto DS
+Lbl WM
+ClrDraw
+0¸Tmin
+62¸¡max
+0¸¡min
+94¸Tmax
+Line(16,16,79,16
+Line(16,16,16,47
+Line(16,47,79,47
+Line(79,47,79,16
+Pt-On(35,27
+Pt-On(36,27
+Pt-On(35,28
+Pt-On(36,28
+Pt-On(35,43
+Pt-On(36,43
+Pt-On(35,44
+Pt-On(36,44
+Pt-On(49,46
+Pt-On(50,46
+Pt-On(51,45
+Pt-On(52,45
+Pt-On(53,44
+Pt-On(54,44
+Pt-On(55,43
+Pt-On(56,43
+Pt-On(57,42
+Pt-On(58,42
+Pt-On(60,41
+Pt-On(61,41
+Pt-On(49,26
+Pt-On(49,27
+Line(48,24,48,17
+Line(47,24,47,17
+Pt-On(58,36
+Pt-On(50,34
+Pt-On(49,33
+Pt-On(53,33
+Pt-On(61,32
+Pt-On(61,31
+Pt-On(55,30
+Pt-On(57,29
+Pt-On(57,19
+Pt-On(52,19
+Pt-On(52,20
+Pt-On(51,20
+Repeat getKey
+End
+ClrDraw
+ClrHome
+Goto DS

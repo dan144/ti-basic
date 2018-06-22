@@ -3,7 +3,7 @@
 This is a collection of some of the TI-BASIC code I wrote in 2007-2008.
 It's presented unedited, as it was written when I was in middle school.
 
-I'm sorry.
+Please be kind.
 
 ## File conversion
 
@@ -14,4 +14,4 @@ someone wrote [this converter](http://ti.zewaren.net/en/portal-ti83-ti83plus-ti8
 so anyone can convert an `8xp` file into plain text.
 
 Unfortunately this converter does not correctly handle a number of
-special characters. #1 gives some details on this issue.
+special characters. [#1](/../../issues/1) gives some details on this issue.

@@ -1,0 +1,57 @@
+0üI
+ú47üTmin
+31üÁmax
+47üTmax
+ú31üÁmin
+AxesOff
+FnOff 
+ClrDraw
+Lbl I
+For(A,50,5,ú5
+Text(ú1,A,9,"Guitar Hero 3
+End
+For(A,1,150
+End
+ClrDraw
+Text(ú1,5,9,"Guitar Hero 3
+Text(14,17,"Brought to you by:
+For(A,91,27,ú4
+Text(22,A,"Firered164&nbsp;&nbsp;&nbsp;&nbsp;"
+End
+For(A,40,47
+VerticaA
+VerticaúA
+End
+For(A,0,ú31,ú1
+HorizonA
+End
+0üA
+If I=1
+Then
+For(A,1,200
+End
+Goto MM
+End
+Repeat A=400 or Bø0
+A+1üA
+getKeyüB
+End
+Lbl MM
+1üI
+ClrDraw
+ClrHome
+Menu("Guitar Hero 3","Play",MM,"How-to",H,"Replay Intro",I,"Quit",Q
+Lbl Q
+Return
+Lbl H
+Text(0,0,"GH3 How-to:
+Text(7,0,"If the note is in column 1,
+Text(14,0,"press [Y=].&nbsp;&nbsp;If the note is in
+Text(21,0,"column 2, press [WINDOW].
+Text(28,0,"If the note is in column 3,
+Text(35,0,"press [ZOOM]. 4 - [TRACE].
+Text(42,0,"5 - [GRAPH]. To exit while
+Text(49,0,"playing a song press [CLEAR].
+Text(56,0,"There is no Star Power. :(
+Pause 
+Goto MM

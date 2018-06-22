@@ -1,0 +1,63 @@
+ClrHome
+SetUpEd·WOW
+If dim(·WOW)=0
+Then
+{1,1¸·WOW
+DelVar ·INSTL
+End
+SetUpEd·INSTL
+If dim(·INSTL)=0
+Then
+{0,0,0,0¸·INSTL
+{1,1¸·WOW
+End
+If ·INSTL(1)=1 and N=709 and O=709 and P=709
+Goto AI
+Menu("WOW Expansion 1","Install",IN,"Uninstall",UN,"About",AB,"Quit",RE
+Lbl IN
+2¸·WOW(1)
+2¸·WOW(2)
+1¸·INSTL(1)
+ClrHome
+Disp "Installed.
+Pause 
+ClrHome
+Lbl RE
+Archive·INSTL
+Archive·WOW
+Return
+Lbl AI
+If ·CACC(2)=2 and ·CACC(3)=1
+Then
+[[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]¸[A]
+Return
+End
+If ·CACC(2)=1 and ·CACC(3)=2
+Then
+[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4][3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3]]¸[A]
+Return
+End
+If ·CACC(2)=2 and ·CACC(3)=2
+Then
+[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0][0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4]]¸[A]
+Return
+End
+If ·CACC(2)>2 or ·CACC(3)>2
+prgmWOWXPNS2
+Return
+Lbl UN
+If ·INSTL(1)=0
+Goto RE
+Fill(0,·INSTL
+1¸·WOW(1)
+1¸·WOW(2)
+ClrHome
+Disp "Uninstalled.
+Pause 
+ClrHome
+Goto RE
+Lbl AB
+Disp "Do not dlete any","WOWXPNS programs","without first","uninstalling","the program.
+Pause 
+ClrHome
+Goto RE
